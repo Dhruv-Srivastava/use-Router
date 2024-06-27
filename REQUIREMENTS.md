@@ -62,10 +62,13 @@ How?
 3. How to not refresh page during navigation
 4. How to handle forward and back button?
 5. ...more
+6. Every component inside the `BrowserRouter` needs to know what the current route is? How to make them know?
+7. Heck, what's even the current URL?
 
 
 ### Some Insights
 1. Need to keep track of the URL -> URL WEB API
 2. For forward and back button -> History WEB API
 3. ...more
+4. Use Context so that children can access the current route without prop drilling
 
